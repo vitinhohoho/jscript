@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 62.5%;
+}
+
+h1{
+    font-size:3.2rem;
+    margin: 3rem;
+}
+
+li{
+    font-size: 1.6rem;
+    list-style: none;
+    border: .1rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+    transition: .3s;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+
+}
+
+ul{
+    border: .1rem solid black;
+    padding: 1rem;
+}
+
+button{
+    padding: 1rem;
+}
+
+#lista-direita > .selecionado{
+    border: .5rem solid red;
+    box-shadow: 0 0 .3rem red;
+}
+
+#lista-esquerda > .selecionado{
+    border: .5rem solid green;
+    box-shadow: 0 0 .3rem green;
+}
